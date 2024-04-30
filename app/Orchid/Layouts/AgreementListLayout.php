@@ -49,7 +49,7 @@ class AgreementListLayout extends Table
                     return Link::make($agreement->CustomerPhone)
                         ->route('platform.agreement.edit', $agreement);
                 }),
-            
+
             TD::make('created_at', 'Created'),
         ];
     }
